@@ -1,0 +1,7 @@
+@font-face {
+    font-family: AudiType-Normal;
+    src: url('./Fonts/AudiType-ExtendedNormal.ttf');
+    /* Add other font formats as needed */
+    font-weight: normal;
+    font-style: normal;
+}
