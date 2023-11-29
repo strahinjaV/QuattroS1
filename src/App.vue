@@ -1,14 +1,14 @@
 <script setup>
-
+  import NavBar from './components/NavBar.vue';
 </script>
 
 <template>
-  <div class="custom-font">Hello Love</div>
+  <div class="wrapper">
+    <NavBar> </NavBar>
+  </div>
+  
 </template>
 
 <style scoped>
-  .custom-font {
-    font-family: AudiType-Normal, sans-serif;
-    font-size: 32px;
-  }
+
 </style>
