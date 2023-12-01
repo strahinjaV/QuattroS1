@@ -3,15 +3,15 @@
         <nav class="navbar navbar-expand-lg custom">
             <div class="container-fluid">
                 <img src="../assets/images/audi-rings.webp" alt="audi logo" class="navbar-img">
-                <a class="navbar-brand p-0 m-2" href="#">Audi</a>
+                <a class="navbar-brand p-0 m-2" id="navbarCompany" href="#">Quattro</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">Features</a>
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link changing-links" aria-current="page" href="#">Home</a>
+                        <a class="nav-link changing-links" href="#">Features</a>
+                        <a class="nav-link changing-links" href="#">Pricing</a>
                     </div>
                 </div>
             </div>
@@ -25,6 +25,7 @@
         margin: 0;
         padding: 0;
         font-family: AudiType-Normal, Arial, Helvetica, sans-serif;
+        box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
     }
     .custom {
         background-color: #ffc11c;
@@ -33,4 +34,34 @@
     .navbar-img {
         width: 75px;
     }
+
+    #navbarCompany {
+        font-family: AudiType-Light;
+    }
+
+    /* Links animation  */
+    a.changing-links {
+        position: relative;
+        text-decoration: none;
+        font-family: AudiType-Light, Arial, Helvetica, sans-serif;
+        padding: 0 10px;
+    }
+    a.changing-links:after {
+        content: "";
+        position: absolute;
+        background-color: black;
+        height: 3px;
+        width: 0;
+        left:0;
+        bottom: -10px;
+        transition: 0.5s ease-in-out;
+        font-family: AudiType-Normal;
+    }
+    a.changing-links:hover:after {
+        width: 100%;
+    }
+    a.changing-links:hover {
+        font-family: AudiType-Normal, Arial, Helvetica, sans-serif;
+    }
+    
 </style>
