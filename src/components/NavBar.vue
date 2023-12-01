@@ -25,6 +25,7 @@
         margin: 0;
         padding: 0;
         font-family: AudiType-Normal, Arial, Helvetica, sans-serif;
+        letter-spacing: 3px;
         box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
     }
     .custom {
