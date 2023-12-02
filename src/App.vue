@@ -1,10 +1,12 @@
 <script setup>
   import NavBar from './components/NavBar.vue';
+  import IntroVid from './components/IntroVid.vue';
 </script>
 
 <template>
-  <div class="wrapper">
-    <NavBar> </NavBar>
+  <div>
+    <NavBar />
+    <IntroVid />
   </div>
   
 </template>

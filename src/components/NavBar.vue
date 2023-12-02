@@ -1,7 +1,7 @@
 <template>
     <div class="wrapper">
         <nav class="navbar navbar-expand-lg custom">
-            <div class="container-fluid">
+            <div class="container-fluid bckg-custom">
                 <img src="../assets/images/audi-rings.webp" alt="audi logo" class="navbar-img">
                 <a class="navbar-brand p-0 m-2" id="navbarCompany" href="#">Quattro</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,10 +20,9 @@
     
 </template>
 
+
 <style scoped>
     .wrapper {
-        margin: 0;
-        padding: 0;
         font-family: AudiType-Normal, Arial, Helvetica, sans-serif;
         letter-spacing: 3px;
         box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
@@ -38,6 +37,7 @@
 
     #navbarCompany {
         font-family: AudiType-Light;
+        color: #2A2929;
     }
 
     /* Links animation  */
@@ -46,11 +46,12 @@
         text-decoration: none;
         font-family: AudiType-Light, Arial, Helvetica, sans-serif;
         padding: 0 10px;
+        color: #2A2929
     }
     a.changing-links:after {
         content: "";
         position: absolute;
-        background-color: black;
+        background-color: #fff;
         height: 3px;
         width: 0;
         left:0;
