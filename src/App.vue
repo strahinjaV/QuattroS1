@@ -1,6 +1,7 @@
 <script setup>
   import NavBar from './components/NavBar.vue';
   import IntroVid from './components/IntroVid.vue';
+  import 'animate.css'
 </script>
 
 <template>
