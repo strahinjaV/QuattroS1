@@ -1,6 +1,7 @@
 <script setup>
   import NavBar from './components/NavBar.vue';
   import IntroVid from './components/IntroVid.vue';
+  import History from './components/History.vue'
   import 'animate.css'
 </script>
 
@@ -8,6 +9,7 @@
   <div>
     <NavBar />
     <IntroVid />
+    <History />
   </div>
   
 </template>
