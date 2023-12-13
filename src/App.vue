@@ -10,8 +10,8 @@
   <div>
     <NavBar />
     <IntroVid />
-    <History />
-    <AudiDrivers />
+    <History class="mb-5" />
+    <AudiDrivers class="mt-5" />
   </div>
   
 </template>
