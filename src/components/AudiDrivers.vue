@@ -1,8 +1,13 @@
 <script setup>
 import DriverBio from './DriverBio.vue'
 import bios from '../../../drivers.json'
+import { ref, onMounted } from 'vue'
 
+const driversInfo = ref([])
 
+onMounted(() => {
+  driversInfo.value = bios
+})
 </script>
 
 <template>
@@ -11,7 +16,7 @@ import bios from '../../../drivers.json'
       <h2 class="noteable">Notable Drivers for Audi durring the Group B era</h2>
     </div>
     <div class="row justify-content-center">
-      <DriverBio v-for="i in 4" :key="i" class="col-md-6 mb-4" />
+      <DriverBio v-for="driver in driversInfo " :key="driver.id" :shortBio="driver.bio" class="col-md-6 mb-4" />
     </div>
   </div>
 </template>
