@@ -1,5 +1,5 @@
 <script setup>
-  import { defineProps, ref } from 'vue';
+  import { defineProps} from 'vue';
 
   const props = defineProps({
     firstName: {
@@ -11,6 +11,10 @@
     shortBio: {
       type: String,
       required: true
+    },
+    imgSrc: {
+      type: String,
+      required: true
     }
   })
 </script>
@@ -20,8 +24,8 @@
   <div class="container-fluid bio-container">
     <div class="row justify-content-center">
       <div class="col-6 position-relative">
-        <img class="bio-img" src="../assets/images/group-b-lineup.jpg" alt="bio-pic" />
-        <p class="overlay-name">Sample Texxxxxxxxxxxxxxxxxxxxxxxxt</p>
+        <img class="bio-img" :src="props.imgSrc" alt="bio-pic" />
+        <p class="overlay-name"><i>{{ props.firstName + " " + props.lastName }}</i></p>
       </div>
     </div>
     <div class="row justify-content-center">
@@ -47,5 +51,12 @@
   bottom: 2%;
   right: 7%;
   margin: 0;
+  font-family: AudiType-ExtendedBold,Arial, Helvetica, sans-serif;
+  color: #ffc11c;
+  font-size: 1.5rem;
+  background-color: gray;
+  opacity: 70%;
+  padding: 5px;
+  border-radius: 5px;
 }
 </style>

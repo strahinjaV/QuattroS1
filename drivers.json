@@ -1,0 +1,30 @@
+[
+  {
+    "id": 0,
+    "firstName": "Walter",
+    "lastName": "Röhrl",
+    "img": "src/assets/images/WalterRohrl.jpg",
+    "bio": "John Doe is an experienced driver with a passion for speed and precision. He has won numerous championships and is known for his calm demeanor on the track."
+  },
+  {
+    "id": 1,
+    "firstName": "Michele",
+    "lastName": "Mouton",
+    "img": "src/assets/images/michelle.webp",
+    "bio": "Alice Smith is a rising star in the world of racing. With a background in engineering, she brings a unique perspective to the track. Alice is determined to break barriers and set new records."
+  },
+  {
+    "id": 2,
+    "firstName": "Stig",
+    "lastName": "Blomqvist",
+    "img": "src/assets/images/stig-blomqvist.webp",
+    "bio": "Robert Johnson, also known as 'Rocket Rob,' is known for his aggressive driving style. He's not afraid to take risks, and his fans love him for his exciting performances."
+  },
+  {
+    "id": 3,
+    "firstName": "Hannu",
+    "lastName": "Mikkola",
+    "img": "/placeholder",
+    "bio": "Robert Johnson, also known as 'Rocket Rob,' is known for his aggressive driving style. He's not afraid to take risks, and his fans love him for his exciting performances."
+  }
+]
