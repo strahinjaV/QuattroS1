@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-md-6 text-center">
-                    <div class="mask">
+                    <div>
                         <video class="vid-con" src="../assets/Videos/audi-combined.mp4" autoplay muted loop></video>
                     </div>
             </div>
@@ -32,9 +32,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-    .mask {
-        
     }
     
 </style>

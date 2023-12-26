@@ -4,27 +4,27 @@
     "firstName": "Walter",
     "lastName": "Röhrl",
     "img": "src/assets/images/WalterRohrl.jpg",
-    "bio": "John Doe is an experienced driver with a passion for speed and precision. He has won numerous championships and is known for his calm demeanor on the track."
+    "bio": "Walter Röhrl, the maestro of precision, etched his legacy with Audi during the Group B epoch. In the 1982 World Rally Championship (WRC), Röhrl secured two victories, navigating the Quattro with unparalleled finesse. His calculated approach to the sport led to triumphs at the Monte Carlo Rally and the Swedish Rally, solidifying his status as a driving virtuoso. Röhrl's mastery was further highlighted by his runner-up finish in the 1982 Driver's Championship. His partnership with Audi saw a total of 11 podium finishes in the 1982 season, showcasing a blend of strategic brilliance and raw speed."
   },
   {
     "id": 1,
     "firstName": "Michele",
     "lastName": "Mouton",
     "img": "src/assets/images/michelle.webp",
-    "bio": "Alice Smith is a rising star in the world of racing. With a background in engineering, she brings a unique perspective to the track. Alice is determined to break barriers and set new records."
+    "bio": "Michelle Mouton, a trailblazer in a male-dominated realm, left an indelible mark on Group B rallying with Audi. Her remarkable achievements include victories at the 1981 San Remo Rally and the challenging Pikes Peak International Hill Climb in 1985, where she triumphed over a formidable mountainous course. Mouton's audacious driving style and determination contributed significantly to Audi's success. In the 1982 season, she amassed an impressive five podium finishes, cementing her reputation as one of the era's most formidable drivers. Mouton's legacy transcends statistics, embodying the spirit of resilience and excellence in the face of intense competition."
   },
   {
     "id": 2,
     "firstName": "Stig",
     "lastName": "Blomqvist",
     "img": "src/assets/images/stig-blomqvist.webp",
-    "bio": "Robert Johnson, also known as 'Rocket Rob,' is known for his aggressive driving style. He's not afraid to take risks, and his fans love him for his exciting performances."
+    "bio": "Stig Blomqvist, the Swedish rallying stalwart, made an impactful contribution to Audi's Group B conquest. In the 1984 season, Blomqvist secured a triumphant victory at the grueling Rallye Côte d'Ivoire, showcasing his prowess on challenging terrains. His consistent performance led to multiple podium finishes, contributing to Audi's dominance. Over the course of the 1984 season, Blomqvist notched up an impressive total of seven podiums, emphasizing his skill in navigating the Quattro through diverse rally landscapes. His strategic acumen and resilience on the track played a pivotal role in Audi's success during this exhilarating era."
   },
   {
     "id": 3,
     "firstName": "Hannu",
     "lastName": "Mikkola",
-    "img": "/placeholder",
-    "bio": "Robert Johnson, also known as 'Rocket Rob,' is known for his aggressive driving style. He's not afraid to take risks, and his fans love him for his exciting performances."
+    "img": "src/assets/images/hannuMikkola.jpg",
+    "bio": "Hannu Mikkola, the Finnish ace, left an indelible mark on Audi's Group B legacy with a championship-winning season in 1983. Mikkola's prowess behind the wheel of the Quattro earned him the coveted WRC title, making him a rallying legend. Throughout the 1983 season, Mikkola secured victories at iconic events like the Rallye San Remo and the Rally Argentina, showcasing his versatility and adaptability to varied rally conditions. His consistency and strategic brilliance resulted in a total of six podium finishes during the season, solidifying Mikkola's reputation as a driving force in Audi's pursuit of glory during the Group B era."
   }
 ]

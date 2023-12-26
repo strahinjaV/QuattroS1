@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid mt-5">
+  <div class="container-fluid mt-5 bg-grad">
     <div class="row justify-content-center">
       <div class="col-9 text-center">
         <h1 class="quote"><i>"WRC is for boys, Group B was for men."</i> - Juha Kankkunen</h1>
@@ -84,4 +84,7 @@
   align-items: center;
   justify-content: center;
 }
+.bg-grad {
+  
+ }
 </style>

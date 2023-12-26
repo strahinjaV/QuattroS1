@@ -13,7 +13,9 @@ onMounted(() => {
 <template>
   <div class="container-fluid">
     <div class="row text-center my-5">
-      <h2 class="noteable">Notable Drivers for Audi durring the Group B era</h2>
+      <div class="">
+        <h2 class="noteable d-inline-block">Notable Drivers for Audi durring the Group B era</h2>
+      </div>
     </div>
     <div class="row justify-content-center">
       <DriverBio
@@ -38,5 +40,25 @@ onMounted(() => {
 .noteable {
   font-family: AudiType-Light, Arial, Helvetica, sans-serif;
   font-size: 2.5rem;
+  border-right: 2px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation:
+    typing 5s steps(47),
+    cursor 0.4s step-end infinite alternate;
+}
+
+/* cursor blinking */
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+/* typing */
+@keyframes typing {
+  from {
+    width: 0;
+  }
 }
 </style>
