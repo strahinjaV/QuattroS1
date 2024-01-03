@@ -1,7 +1,7 @@
 <script setup>
   import NavBar from './components/NavBar.vue';
   import IntroVid from './components/IntroVid.vue';
-  import History from './components/History.vue'
+  import ShortHistory from './components/ShortHistory.vue'
   import AudiDrivers from './components/AudiDrivers.vue'
   import 'animate.css'
 </script>
@@ -10,8 +10,8 @@
   <div>
     <NavBar />
     <IntroVid />
-    <History class="mb-5" />
-    <AudiDrivers class="mt-5" />
+    <ShortHistory />
+    <AudiDrivers />
   </div>
   
 </template>

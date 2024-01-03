@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid mt-5 bg-grad">
+  <div class="container-fluid mt-5 mb-5">
     <div class="row justify-content-center">
       <div class="col-9 text-center">
         <h1 class="quote"><i>"WRC is for boys, Group B was for men."</i> - Juha Kankkunen</h1>
@@ -18,14 +18,14 @@
         </p>
       </div>
       <div class="col-3 center-it">
-        <div class="pic-con">
+        <div class="pic-con zoom-wrapper">
           <img class="pic" src="../assets/images/history-img.png" alt="old audi photo" />
         </div>
       </div>
     </div>
     <div class="row mt-5 justify-content-center">
       <div class="col-3 center-it">
-        <div class="pic-con">
+        <div class="pic-con zoom-wrapper">
           <img class="pic" src="../assets/images/old-audi.jpg" alt="old audi mid corner photo" />
         </div>
       </div>
@@ -58,7 +58,7 @@
         </p>
       </div>
       <div class="col-3 center-it">
-        <div class="pic-con">
+        <div class="pic-con zoom-wrapper">
           <img class="pic" src="../assets/images/group-b-lineup.jpg " alt="old audi photo" />
         </div>
       </div>
@@ -84,7 +84,16 @@
   align-items: center;
   justify-content: center;
 }
-.bg-grad {
-  
- }
+.zoom-wrapper {
+  overflow: hidden;
+  border-radius: 5%;
+}
+
+.zoom-wrapper img {
+  object-fit: cover;
+  transition: ease-out 0.3s;
+}
+.zoom-wrapper:hover img {
+  transform: scale(1.2);
+}
 </style>

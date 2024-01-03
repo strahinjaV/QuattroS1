@@ -22,17 +22,17 @@ const props = defineProps({
 <template>
   <div class="container-fluid bio-container">
     <div class="row justify-content-center">
-      <div class="col-6 position-relative">
+      <div class="col-6 position-relative zoom-wrapper">
         <img class="bio-img" :src="props.imgSrc" alt="bio-pic" />
-          <p class="nameplate-name">
-            <img class="nameplate-img" src="../assets/images/nameplate-asset.png" /><i>{{
-              props.firstName + ' ' + props.lastName
-            }}</i>
-          </p>
+        <p class="nameplate-name zoom-wrapper">
+          <img class="nameplate-img" src="../assets/images/nameplate-asset.png" /><i>{{
+            props.firstName + ' ' + props.lastName
+          }}</i>
+        </p>
       </div>
     </div>
     <div class="row justify-content-center">
-      <div class="col-6">
+      <div class="col-6 bio-text mt-3">
         <p>{{ props.shortBio }}</p>
       </div>
     </div>
@@ -44,11 +44,6 @@ const props = defineProps({
   width: 100%;
   border-radius: 5%;
   height: auto;
-}
-.center-it {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .nameplate-name {
@@ -62,21 +57,30 @@ const props = defineProps({
   padding: 5px;
   border-radius: 5px;
   text-decoration: underline;
-  background-color: rgba(0, 0, 0, 0.60);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 .nameplate-img {
   width: 35px;
   margin-bottom: 3px;
 }
-.bio-con {
-  background: hsla(45, 100%, 53%, 1);
 
-background: linear-gradient(90deg, hsla(45, 100%, 53%, 1) 0%, hsla(0, 0%, 99%, 1) 100%);
+.zoom-wrapper {
+  overflow: hidden;
+  border-radius: 5%;
+}
 
-background: -moz-linear-gradient(90deg, hsla(45, 100%, 53%, 1) 0%, hsla(0, 0%, 99%, 1) 100%);
+.zoom-wrapper img {
+  object-fit: cover;
+  transition: ease-out 0.3s;
+}
+.zoom-wrapper:hover img {
+  transform: scale(1.2);
+  opacity: 90%;
+}
 
-background: -webkit-linear-gradient(90deg, hsla(45, 100%, 53%, 1) 0%, hsla(0, 0%, 99%, 1) 100%);
-
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ffc211", endColorstr="#FCFCFC", GradientType=1 );
+.bio-text p {
+  color: white;
+  font-family: AudiType-ExtendedBold, Arial, Helvetica, sans-serif;
+  text-align: justify;
 }
 </style>

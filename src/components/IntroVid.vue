@@ -1,5 +1,5 @@
 <template> 
-    <div class="container-fluid">
+    <div class="container-fluid bg-black">
         <div class="row justify-content-center">
             <div class="col-md-6 text-center">
                     <div>
@@ -26,7 +26,7 @@
     .greeting-text {
         font-family: AudiType-Normal,Arial, Helvetica, sans-serif;
         font-size: 4vw;
-        color: #2A2929;
+        color: #ffc11c;
     }
     .center-it {
         display: flex;

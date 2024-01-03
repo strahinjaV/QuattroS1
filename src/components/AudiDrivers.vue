@@ -11,10 +11,10 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="container-fluid">
-    <div class="row text-center my-5">
-      <div class="">
-        <h2 class="noteable d-inline-block">Notable Drivers for Audi durring the Group B era</h2>
+  <div class="container-fluid mt-5 backrd">
+    <div class="row justify-content-center my-5">
+      <div class="typewriter-con">
+        <h2 class="noteable mt-3">Notable Drivers for Audi durring the Group B era</h2>
       </div>
     </div>
     <div class="row justify-content-center">
@@ -37,9 +37,18 @@ onMounted(() => {
   align-items: center;
   justify-content: center;
 }
+.backrd {
+  background-color: black;
+}
+
+.typewriter-con { 
+  display: inline-block;
+  width: auto;
+}
 .noteable {
   font-family: AudiType-Light, Arial, Helvetica, sans-serif;
   font-size: 2.5rem;
+  color: white;
   border-right: 2px solid;
   width: 100%;
   white-space: nowrap;
@@ -50,15 +59,15 @@ onMounted(() => {
 }
 
 /* cursor blinking */
-@keyframes cursor {
+ @keyframes cursor {
   50% {
     border-color: transparent;
   }
-}
+} 
 /* typing */
-@keyframes typing {
+ @keyframes typing {
   from {
     width: 0;
   }
-}
+} 
 </style>
