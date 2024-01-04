@@ -24,7 +24,7 @@ const props = defineProps({
     <div class="row justify-content-center">
       <div class="col-6 position-relative zoom-wrapper">
         <img class="bio-img" :src="props.imgSrc" alt="bio-pic" />
-        <p class="nameplate-name zoom-wrapper">
+        <p class="nameplate-name">
           <img class="nameplate-img" src="../assets/images/nameplate-asset.png" /><i>{{
             props.firstName + ' ' + props.lastName
           }}</i>
@@ -69,11 +69,11 @@ const props = defineProps({
   border-radius: 5%;
 }
 
-.zoom-wrapper img {
+.zoom-wrapper .bio-img {
   object-fit: cover;
   transition: ease-out 0.3s;
 }
-.zoom-wrapper:hover img {
+.zoom-wrapper .bio-img:hover {
   transform: scale(1.2);
   opacity: 90%;
 }
