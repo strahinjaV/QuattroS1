@@ -1,61 +1,69 @@
 <template>
-    <div class="container-fluid bg-black py-3">
-      <div class="row justify-content-center">
-        <div class="col-md-6 text-center position-relative">
-          <div>
-            <video id="intro-vid" class="vid-con" src="../assets/Videos/audi-combined.mp4" autoplay loop muted></video>
-            <div @click="toggleSound" class="sound-toggle">
-              <!-- You can replace the following with your preferred icon -->
-              <i v-if="isMuted" class="fas fa-volume-mute"></i>
-              <i v-else class="fas fa-volume-up"></i>
-            </div>
+  <div class="container-fluid bg-black py-3">
+    <div class="row justify-content-center">
+      <div class="col-md-6 text-center position-relative">
+        <div>
+          <video
+            id="intro-vid"
+            class="vid-con"
+            src="../assets/Videos/audi-combined.mp4"
+            autoplay
+            loop
+            muted
+          ></video>
+          <div @click="toggleSound" class="sound-toggle">
+            <i v-if="isMuted" class="fas fa-volume-mute"></i>
+            <i v-else class="fas fa-volume-up"></i>
           </div>
         </div>
-        <div class="col-md-4 center-it text-center">
-          <h1 class="greeting-text text-break animate__animated animate__backInRight">Meet the Audi Quattro S1</h1>
-        </div>
+      </div>
+      <div class="col-md-4 center-it text-center">
+        <h1 class="greeting-text text-break animate__animated animate__backInRight">
+          Audi sets the challenge, Quattro sets the pace.
+        </h1>
       </div>
     </div>
-  </template>
-  
-  <script setup>
-  import { ref } from 'vue';
-  
-  const isMuted = ref(true);
-  
-  const toggleSound = () => {
-    const video = document.getElementById('intro-vid');
-    video.muted = !video.muted;
-    isMuted.value = video.muted;
-  };
-  </script>
-  
-  <style scoped>
-  .vid-con {
-    width: 100%;
-    height: auto;
-    border-radius: 30px;
-    position: relative;
-  }
-  
-  .greeting-text {
-    font-family: AudiType-Normal, Arial, Helvetica, sans-serif;
-    font-size: 4vw;
-    color: #ffc11c;
-  }
-  
-  .center-it {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .sound-toggle {
-    position: absolute;
-    bottom: 20px;
-    right: 40px;
-    cursor: pointer;
-    color: #ffc11c;
-    font-size: 50px;
-  }
-  </style>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue'
+
+const isMuted = ref(true)
+
+const toggleSound = () => {
+  const video = document.getElementById('intro-vid')
+  video.muted = !video.muted
+  isMuted.value = video.muted
+}
+</script>
+
+<style scoped>
+.vid-con {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+  position: relative;
+}
+
+.greeting-text {
+  font-family: AudiType-Normal, Arial, Helvetica, sans-serif;
+  font-size: 2.7vw;
+  color: #ffc11c;
+}
+
+.center-it {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sound-toggle {
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+  cursor: pointer;
+  color: #ffc11c;
+  font-size: 50px;
+}
+</style>

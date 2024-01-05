@@ -9,9 +9,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link changing-links" aria-current="page" href="#">Home</a>
-                        <a class="nav-link changing-links" href="#">Features</a>
-                        <a class="nav-link changing-links" href="#">Pricing</a>
+                        <a class="nav-link changing-links ms-2" aria-current="page" href="#">Home</a>
+                        <a class="nav-link changing-links ms-2" href="#">History</a>
+                        <a class="nav-link changing-links ms-2" href="#">Drivers</a>
                     </div>
                 </div>
             </div>
