@@ -18,7 +18,7 @@
         </div>
       </div>
       <div class="col-md-4 center-it text-center">
-        <h1 class="greeting-text text-break animate__animated animate__backInRight">
+        <h1 class="greeting-text text-break animate__animated animate__fadeIn">
           Audi sets the challenge, Quattro sets the pace.
         </h1>
       </div>
@@ -36,6 +36,9 @@ const toggleSound = () => {
   video.muted = !video.muted
   isMuted.value = video.muted
 }
+
+// Extending the fade in animation for the intro text (extended by 7x)
+document.documentElement.style.setProperty('--animate-duration', '7s');
 </script>
 
 <style scoped>
@@ -66,4 +69,5 @@ const toggleSound = () => {
   color: #ffc11c;
   font-size: 50px;
 }
+
 </style>

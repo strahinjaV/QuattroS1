@@ -1,7 +1,7 @@
 <template>
     <div class="wrapper">
         <nav class="navbar navbar-expand-lg custom">
-            <div class="container-fluid bckg-custom">
+            <div class="container-fluid bckg-custom sticky-top">
                 <img src="../assets/images/audi-rings.webp" alt="audi logo" class="navbar-img">
                 <a class="navbar-brand p-0 m-2" id="navbarCompany" href="#">Quattro</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
