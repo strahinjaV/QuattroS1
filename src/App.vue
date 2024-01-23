@@ -3,6 +3,7 @@
   import IntroVid from './components/IntroVid.vue';
   import ShortHistory from './components/ShortHistory.vue'
   import AudiDrivers from './components/AudiDrivers.vue'
+  import CarStats from './components/CarStats.vue';
   import 'animate.css'
 </script>
 
@@ -12,6 +13,7 @@
     <IntroVid />
     <ShortHistory />
     <AudiDrivers />
+    <CarStats />
   </div>
   
 </template>

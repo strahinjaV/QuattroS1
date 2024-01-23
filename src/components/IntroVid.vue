@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid bg-black py-3">
+  <div id="in-video" class="container-fluid bg-black py-3">
     <div class="row justify-content-center">
       <div class="col-md-6 text-center position-relative">
         <div>
@@ -38,10 +38,11 @@ const toggleSound = () => {
 }
 
 // Extending the fade in animation for the intro text (extended by 7x)
-document.documentElement.style.setProperty('--animate-duration', '7s');
+document.documentElement.style.setProperty('--animate-duration', '7s')
 </script>
 
 <style scoped>
+
 .vid-con {
   width: 100%;
   height: auto;
@@ -69,5 +70,4 @@ document.documentElement.style.setProperty('--animate-duration', '7s');
   color: #ffc11c;
   font-size: 50px;
 }
-
 </style>

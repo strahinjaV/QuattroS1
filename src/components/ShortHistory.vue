@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid mt-5 mb-5">
+  <div id="short-history" class="container-fluid mt-5 mb-5" ref="audiHistory">
     <div class="row justify-content-center">
       <div class="col-9 text-center">
         <h1 class="quote"><i>"WRC is for boys, Group B was for men."</i> - Juha Kankkunen</h1>

@@ -1,7 +1,11 @@
+<script setup>
+
+</script>
+
 <template>
     <div class="wrapper">
-        <nav class="navbar navbar-expand-lg custom">
-            <div class="container-fluid bckg-custom sticky-top">
+        <nav class="navbar navbar-expand-lg custom fixed-top">
+            <div class="container-fluid bckg-custom">
                 <img src="../assets/images/audi-rings.webp" alt="audi logo" class="navbar-img">
                 <a class="navbar-brand p-0 m-2" id="navbarCompany" href="#">Quattro</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -9,9 +13,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link changing-links ms-2" aria-current="page" href="#">Home</a>
-                        <a class="nav-link changing-links ms-2" href="#">History</a>
-                        <a class="nav-link changing-links ms-2" href="#">Drivers</a>
+                        <a class="nav-link changing-links ms-2" aria-current="page" href="#in-video">Home</a>
+                        <a class="nav-link changing-links ms-2" href="#short-history">History</a>
+                        <a class="nav-link changing-links ms-2" href="#drivers-part">Drivers</a>
                     </div>
                 </div>
             </div>

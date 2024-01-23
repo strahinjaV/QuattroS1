@@ -1,20 +1,29 @@
 <script setup>
 import DriverBio from './DriverBio.vue'
 import bios from '../../drivers.json'
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, provide } from 'vue'
 
 const driversInfo = ref([])
 
 onMounted(() => {
   driversInfo.value = bios
+
+  
+  targetElement.value = document.getElementById('audiHistory')
 })
+
+
+// Getting and providing the ref for the navbar 
+const targetElement = ref(null)
+
+provide('audiHistory',targetElement)
 </script>
 
 <template>
-  <div class="container-fluid mt-5 backrd">
+  <div class="container-fluid mt-5 backrd" ref="audiDrivers">
     <div class="row justify-content-center my-5">
       <div class="typewriter-con">
-        <h2 class="noteable mt-3">Notable Drivers for Audi durring the Group B era</h2>
+        <h2 id="drivers-part" class="noteable mt-3">Notable Drivers for Audi durring the Group B era</h2>
       </div>
     </div>
     <div class="row justify-content-center">
