@@ -7,7 +7,7 @@
     </div>
     <div class="row mt-5 justify-content-center">
       <div class="col-4 center-it">
-        <p>
+        <p class="p-font">
           In the annals of automotive lore, there exists a tumultuous chapter that reverberates with
           the thunderous symphony of unbridled power and audacious speed—the era of Group B rally
           racing. Born in the early 1980s, Group B emerged as a crucible of automotive insanity,
@@ -30,7 +30,7 @@
         </div>
       </div>
       <div class="col-4 center-it">
-        <p>
+        <p class="p-font">
           The Audi Quattro, with its revolutionary all-wheel-drive system, became the vanguard of a
           new era in rally racing. The conventional wisdom of rear-wheel-drive supremacy was
           shattered as the Quattro's distinctive five-cylinder turbocharged engine roared to life.
@@ -46,7 +46,7 @@
     </div>
     <div class="row mt-5 justify-content-center">
       <div class="col-4 center-it">
-        <p>
+        <p class="p-font">
           Nevertheless, the legacy of Group B endures as a testament to the uncompromising passion
           that fueled an era of automotive excess. The Audi Quattro, with its iconic design and
           pioneering technology, remains a symbol of innovation and courage. Though Group B may have
@@ -71,6 +71,10 @@
 <style scoped>
 .quote {
   font-family: AudiType-Light, Arial, Helvetica, sans-serif;
+}
+
+.p-font {
+  font-family: AudiType-Light, Helvetica, sans-serif;
 }
 .pic {
   width: 100%;

@@ -51,7 +51,7 @@ document.documentElement.style.setProperty('--animate-duration', '7s')
 }
 
 .greeting-text {
-  font-family: AudiType-Normal, Arial, Helvetica, sans-serif;
+  font-family: AudiType-Normal;
   font-size: 2.7vw;
   color: #ffc11c;
 }

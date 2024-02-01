@@ -224,6 +224,7 @@
 .sizing-container {
   height: 50rem;
   position: relative;
+  font-family: AudiType-Normal;
 }
 
 .transparent-bg {

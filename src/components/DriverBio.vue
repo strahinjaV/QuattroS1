@@ -79,7 +79,7 @@ const props = defineProps({
 
 .bio-text p {
   color: white;
-  font-family: AudiType-ExtendedBold, Arial, Helvetica, sans-serif;
+  font-family: AudiType-Light, Arial, Helvetica, sans-serif;
   text-align: justify;
 }
 </style>
